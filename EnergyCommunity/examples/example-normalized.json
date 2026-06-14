@@ -1,0 +1,79 @@
+{
+  "id": "urn:ngsi-ld:EnergyCommunity:community-001",
+  "type": "EnergyCommunity",
+  "name": {
+    "value": "Göteborg Renewable Energy Community",
+    "type": "Text"
+  },
+  "description": {
+    "value": "Local energy community enabling shared photovoltaic generation, storage, and collective self-consumption.",
+    "type": "Text"
+  },
+  "location": {
+    "type": "geo:json",
+    "value": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            11.96,
+            57.7
+          ],
+          [
+            11.99,
+            57.7
+          ],
+          [
+            11.99,
+            57.72
+          ],
+          [
+            11.96,
+            57.72
+          ],
+          [
+            11.96,
+            57.7
+          ]
+        ]
+      ]
+    }
+  },
+  "communityType": {
+    "value": "RenewableEnergyCommunity",
+    "type": "Text"
+  },
+  "regulatoryFramework": {
+    "value": "EU Renewable Energy Directive (RED II)",
+    "type": "Text"
+  },
+  "hasMember": {
+    "type": "StructuredValue",
+    "value": [
+      "urn:ngsi-ld:EnergyProsumer:prosumer-001",
+      "urn:ngsi-ld:EnergyProsumer:prosumer-002"
+    ]
+  },
+  "aggregates": {
+    "type": "StructuredValue",
+    "value": [
+      "urn:ngsi-ld:PhotovoltaicDevice:pv-001",
+      "urn:ngsi-ld:Battery:battery-001",
+      "urn:ngsi-ld:SpaceHeater:spaceheater-001",
+      "urn:ngsi-ld:Vehicle:vehicle-001",
+      "urn:ngsi-ld:EVChargingStation:charger-001"
+    ]
+  },
+  "aggregatesConsumption": {
+    "type": "Text",
+    "value": "urn:ngsi-ld:Consumption:community-consumption-001"
+  },
+  "aggregatesProduction": {
+    "type": "Text",
+    "value": "urn:ngsi-ld:GreenEnergyMeasurement:community-production-001"
+  },
+  "usesWeatherForecast": {
+    "type": "Text",
+    "value": "urn:ngsi-ld:Weather:weather-001"
+  }
+}

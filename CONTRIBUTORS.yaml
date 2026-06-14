@@ -1,0 +1,16 @@
+description: This is a compilation list of all CONTRIBUTORS across different objects (data models) alphabetically ordered. All fields are non mandatory
+contributors:
+- name: Rodi
+  surname: Jolak
+  mail: rodijolak@yahoo.it
+  organization: RISE Research Institutes of Sweden
+  project: RESCHOOL EU Project
+  comments: Contributor of EnergyCommunity and EnergyProsumer data models
+  year: 2026
+- name: Alberto
+  surname: Abella
+  mail: alberto.abella@fiware.org
+  organization: FIWARE Foundation
+  project: 
+  comments: Smart Data Models initiative
+  year: 2026

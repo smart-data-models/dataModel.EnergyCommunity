@@ -1,0 +1,53 @@
+{
+    "@context": {
+        "EnergyCommunity": "https://smartdatamodels.org/dataModel.EnergyCommunity/EnergyCommunity",
+        "EnergyProsumer": "https://smartdatamodels.org/dataModel.EnergyCommunity/EnergyProsumer",
+        "aggregates": "https://smartdatamodels.org/dataModel.EnergyCommunity/aggregates",
+        "aggregatesConsumption": "https://smartdatamodels.org/dataModel.EnergyCommunity/aggregatesConsumption",
+        "aggregatesProduction": "https://smartdatamodels.org/dataModel.EnergyCommunity/aggregatesProduction",
+        "communityType": "https://smartdatamodels.org/dataModel.EnergyCommunity/communityType",
+        "hasMember": "https://smartdatamodels.org/dataModel.EnergyCommunity/hasMember",
+        "regulatoryFramework": "https://smartdatamodels.org/dataModel.EnergyCommunity/regulatoryFramework",
+        "usesWeatherForecast": "https://smartdatamodels.org/dataModel.EnergyCommunity/usesWeatherForecast",
+        "consumes": "https://smartdatamodels.org/dataModel.EnergyCommunity/consumes",
+        "contractedPower": "https://smartdatamodels.org/dataModel.EnergyCommunity/contractedPower",
+        "controls": "https://smartdatamodels.org/dataModel.EnergyCommunity/controls",
+        "memberOf": "https://smartdatamodels.org/dataModel.EnergyCommunity/memberOf",
+        "produces": "https://smartdatamodels.org/dataModel.EnergyCommunity/produces",
+        "represents": "https://smartdatamodels.org/dataModel.EnergyCommunity/represents",
+        "roleType": "https://smartdatamodels.org/dataModel.EnergyCommunity/roleType",
+        "timezone": "https://smartdatamodels.org/dataModel.EnergyCommunity/timezone",
+        "totalEnergyExported": "https://smartdatamodels.org/dataModel.EnergyCommunity/totalEnergyExported",
+        "totalEnergyImported": "https://smartdatamodels.org/dataModel.EnergyCommunity/totalEnergyImported",
+        "address": "https://smartdatamodels.org/address",
+        "addressCountry": "https://smartdatamodels.org/addressCountry",
+        "addressLocality": "https://smartdatamodels.org/addressLocality",
+        "addressRegion": "https://smartdatamodels.org/addressRegion",
+        "alternateName": "https://smartdatamodels.org/alternateName",
+        "areaServed": "https://smartdatamodels.org/areaServed",
+        "dataProvider": "https://smartdatamodels.org/dataProvider",
+        "dateCreated": "https://smartdatamodels.org/dateCreated",
+        "dateModified": "https://smartdatamodels.org/dateModified",
+        "description": "http://purl.org/dc/terms/description",
+        "district": "https://smartdatamodels.org/district",
+        "id": "@id",
+        "location": "http://www.w3.org/2003/01/geo/wgs84_pos#location",
+        "name": "https://schema.org/name",
+        "owner": "https://smartdatamodels.org/owner",
+        "postOfficeBoxNumber": "https://smartdatamodels.org/postOfficeBoxNumber",
+        "postalCode": "https://smartdatamodels.org/postalCode",
+        "seeAlso": "https://smartdatamodels.org/seeAlso",
+        "source": "https://smartdatamodels.org/source",
+        "streetAddress": "https://smartdatamodels.org/streetAddress",
+        "streetNr": "https://smartdatamodels.org/streetNr",
+        "type": "@type",
+        "bbox": {
+            "@container": "@list",
+            "@id": "https://purl.org/geojson/vocab#bbox"
+        },
+        "coordinates": {
+            "@container": "@list",
+            "@id": "https://purl.org/geojson/vocab#coordinates"
+        }
+    }
+}
