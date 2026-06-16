@@ -1,17 +1,17 @@
 # dataModel.EnergyCommunity
 
-Smart Data Models subject for the SmartEnergy domain.
+### List of data models
 
-## Data Models
+The following entity types are available:
+- [EnergyCommunity](https://github.com/smart-data-models/dataModel.EnergyCommunity/blob/master/EnergyCommunity/README.md). A collective entity representing an energy community enabling shared production, consumption, and storage of energy among its members.
 
-- [EnergyCommunity](EnergyCommunity/README.md)
-- [EnergyProsumer](EnergyProsumer/README.md)
+- [EnergyProsumer](https://github.com/smart-data-models/dataModel.EnergyCommunity/blob/master/EnergyProsumer/README.md). A role played by an individual or organization that both consumes and produces energy within an energy community.
 
-## License
 
-[Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
-## Support
+### Contributors
+[Link](https://github.com/smart-data-models/dataModel.EnergyCommunity/blob/master/CONTRIBUTORS.yaml) to the 2 current contributors of the data models of this Subject.
 
-- [Smart Data Models](https://smartdatamodels.org)
-- [GitHub Issues](https://github.com/smart-data-models/dataModel.EnergyCommunity/issues)
+
+### Contribution
+You can raise an [issue](https://github.com/smart-data-models/dataModel.EnergyCommunity/issues) or submit your [PR](https://github.com/smart-data-models/dataModel.EnergyCommunity/pulls) on existing data models
