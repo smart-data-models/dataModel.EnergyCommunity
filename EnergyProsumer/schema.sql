@@ -1,5 +1,5 @@
 /* (Beta) Export of data model EnergyProsumer of the subject dataModel.EnergyCommunity for a PostgreSQL database. Pending translation of enumerations and multityped attributes */
-CREATE TYPE roleType_type AS ENUM ('consumer', 'producer', 'prosumer');
+CREATE TYPE EnergyProsumer_roleType_type AS ENUM ('consumer', 'producer', 'prosumer');
 CREATE TYPE EnergyProsumer_type AS ENUM ('EnergyProsumer');
 CREATE TABLE EnergyProsumer (
   "address" JSON,
@@ -19,7 +19,7 @@ CREATE TABLE EnergyProsumer (
   "owner" JSON,
   "produces" JSON,
   "represents" JSON,
-  "roleType" roleType_type,
+  "roleType" EnergyProsumer_roleType_type,
   "seeAlso" JSON,
   "source" TEXT,
   "timezone" TEXT,
